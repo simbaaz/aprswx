@@ -41,7 +41,7 @@ if [ ${#data} -eq 56 ]
 
 #Send data to the server
 
-printf "%s\n" "user $user pass $password" "${callsign}>APN001,TCPIP*:${data}${comment}"
+ printf "%s\n" "user $user pass $password" "${callsign}>APN001,TCPIP*:${data}${comment}"
 
 #| ncat $server $port
 
